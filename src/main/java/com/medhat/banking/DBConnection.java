@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+//version 9.3.0 so will not update till later
 public class DBConnection {
     static final String url = "jdbc:mysql://localhost:3306/bank";
     static final String user = "root";

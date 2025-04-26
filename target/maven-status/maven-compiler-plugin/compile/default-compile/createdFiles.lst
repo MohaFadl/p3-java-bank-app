@@ -1,8 +1,8 @@
 com\medhat\banking\Home.class
 com\medhat\banking\Profile.class
-com\medhat\banking\NewJPanel.class
 com\medhat\banking\Banking.class
 com\medhat\banking\Register.class
+com\medhat\banking\Login$1.class
 com\medhat\banking\Login.class
 com\medhat\banking\WithDepo.class
 com\medhat\banking\DBConnection.class

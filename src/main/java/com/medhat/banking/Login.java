@@ -16,7 +16,14 @@ public class Login {
         window.setResizable(false);
         window.setLocationRelativeTo(null);
 
-        JPanel panel = new JPanel();
+        JPanel panel = new JPanel() {
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        ImageIcon bg = new ImageIcon("C:\\Users\\Mohamed Medhat\\Downloads\\image-removebg-preview.png");
+        g.drawImage(bg.getImage(), 0, 0, getWidth(), getHeight(), this);
+    }
+};
         panel.setLayout(new GridLayout(3, 2, 10, 10));
         panel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
         panel.setBackground(new Color(240, 240, 240));
